@@ -1,0 +1,71 @@
+name: easy_sell
+description: A new Point of Sell project in Flutter.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  window_manager: ^0.3.2
+  get: ^4.6.5
+  intl: ^0.18.0
+  get_storage: ^2.1.1
+  lottie: ^2.3.2
+  unicons: ^2.1.1
+  mask_text_input_formatter: ^2.4.0
+  drift: ^2.8.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.3
+  http: ^0.13.6
+  flutter_secure_storage: ^8.0.0
+  dio: ^5.1.2
+  pdf: ^3.10.4
+  barcode: ^2.2.4
+  flutter_svg: ^2.0.7
+  excel: 2.1.0
+  flutter_treeview: ^1.0.7+1
+  syncfusion_flutter_datepicker: ^23.1.42
+  file_picker: ^5.5.0
+  open_file: ^3.3.2
+  syncfusion_flutter_datagrid: ^23.1.42
+  rename: ^3.0.1
+  animated_text_kit: ^4.2.2
+  linked_scroll_controller: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  drift_dev: ^2.8.0
+  build_runner: ^2.3.3
+  drift_db_viewer: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/receipt/
+    - assets/images/check/
+
+  fonts:
+    - family: EasySell
+      fonts:
+        - asset: assets/fonts/EasySell.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         weight: 700
+  #         style: italic
